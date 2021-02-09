@@ -1,5 +1,5 @@
 import styles from '../styles/Home.module.sass';
-import Link from "next/link";
+import PrimaryButton from "../components/atoms/PrimaryButton";
 
 export default function Home() {
   return (
@@ -8,11 +8,9 @@ export default function Home() {
           WELCOME
         </h1>
 
-        <button className={styles.button}>
-          <Link href="/selection">
-            <a>Click</a>
-          </Link>
-        </button>
+        <PrimaryButton
+            text="Click"
+            link="/selection"/>
       </main>
   )
 }
