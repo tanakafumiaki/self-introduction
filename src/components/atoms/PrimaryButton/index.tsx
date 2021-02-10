@@ -1,17 +1,19 @@
 import styles from './style.module.sass'
 import Link from "next/link";
+import React from "react";
 
-interface PrimaryButtonProps {
+interface Props {
     text: string
     link: string
 }
 
-export default function PrimaryButton(props: PrimaryButtonProps) {
+const PrimaryButton: React.VFC<Props> = ({ link, text }) => {
     return (
         <button className={styles.button}>
-            <Link href={props.link}>
-                <a>{props.text}</a>
+            <Link href={link}>
+                <a className={styles.p}>{text}</a>
             </Link>
         </button>
-    );
+    )
 }
+export default PrimaryButton
