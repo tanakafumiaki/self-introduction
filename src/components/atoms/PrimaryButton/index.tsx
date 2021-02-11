@@ -11,7 +11,7 @@ const PrimaryButton: React.VFC<Props> = ({ link, text }) => {
     return (
         <button className={styles.button}>
             <Link href={link}>
-                <a className={styles.p}>{text}</a>
+                <a>{text}</a>
             </Link>
         </button>
     )
