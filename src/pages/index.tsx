@@ -1,5 +1,5 @@
-import styles from '../styles/Home.module.sass';
-import PrimaryButton from "../components/atoms/PrimaryButton";
+import styles from 'src/styles/Home.module.sass';
+import PrimaryButton from "src/components/atoms/PrimaryButton";
 
 export default function Home() {
   return (
