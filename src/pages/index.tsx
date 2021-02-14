@@ -1,18 +1,7 @@
-import styles from 'src/styles/Home.module.sass';
-import {PrimaryButton} from "src/components/atoms";
+import HomeTemplate from "src/components/templates/PageTemplate/index";
 import React from "react";
 
-const Home　= () => {
-    return (
-        <main className={styles.main}>
-            <h1 className={styles.title}>
-                WELCOME
-            </h1>
-
-            <PrimaryButton
-                text="Click"
-                link="/selection"/>
-        </main>
-    )
+const Home = () => {
+    return <HomeTemplate />
 }
 export default Home
