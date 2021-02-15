@@ -1,4 +1,4 @@
-import styles from "src/styles/Home.module.sass";
+import styles from "src/components/templates/PageTemplate/styles.module.sass";
 import {PrimaryButton} from "src/components/atoms";
 import React from "react";
 
