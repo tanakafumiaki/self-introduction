@@ -1,5 +1,5 @@
 import styles from "src/components/templates/PageTemplate/styles.module.sass";
-import {PrimaryButton} from "src/components/atoms";
+import {PrimaryLink} from "src/components/atoms";
 import React from "react";
 
 const HomeTemplate　= () => {
@@ -9,10 +9,10 @@ const HomeTemplate　= () => {
                 WELCOME
             </h1>
 
-            <PrimaryButton
+            <PrimaryLink
                 text="Click"
                 link="/selection"/>
         </main>
     )
 }
-export default HomeTemplate
+export default HomeTemplate;
