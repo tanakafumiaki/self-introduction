@@ -11,7 +11,7 @@ const HomeTemplate: React.VFC　= () => {
 
             <PrimaryLink
                 text="Click"
-                link="/selection"/>
+                href="/selection"/>
         </main>
     )
 }

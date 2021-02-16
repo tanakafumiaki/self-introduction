@@ -4,12 +4,12 @@ import React from "react";
 
 interface Props {
     text: string
-    link: string
+    href: string
 }
 
-const PrimaryLink: React.VFC<Props> = ({ link, text }) => {
+const PrimaryLink: React.VFC<Props> = ({ href, text }) => {
     return (
-        <Link href={link}>
+        <Link href={href}>
             <a className={styles.link}>{text}</a>
         </Link>
     )
