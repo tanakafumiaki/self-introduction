@@ -10,21 +10,21 @@ const SelectionTemplate: React.VFC　= () => {
             </h1>
 
             <div className={styles.selectionContainer}>
-            <PrimaryLink
-                text="Profile"
-                href="/profile"/>
+                <PrimaryLink
+                    text="Profile"
+                    href="/profile"/>
 
-            <PrimaryLink
-                text="Skills"
-                href="/skills"/>
+                <PrimaryLink
+                    text="Skills"
+                    href="/skills"/>
 
-            <PrimaryLink
-                text="Products"
-                href="/products"/>
+                <PrimaryLink
+                    text="Products"
+                    href="/products"/>
 
-            <PrimaryLink
-                text="Experience"
-                href="/experience"/>
+                <PrimaryLink
+                    text="Experience"
+                    href="/experience"/>
             </div>
         </main>
     )
