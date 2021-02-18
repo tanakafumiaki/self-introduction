@@ -1,13 +1,12 @@
-import styles from "components/templates/HomeTemplate/styles.module.sass";
-import {PrimaryLink} from "components/atoms";
+import styles from "./styles.module.sass";
+import {Title, PrimaryLink} from "components/atoms";
 import React from "react";
 
 const HomeTemplate: React.VFC　= () => {
     return (
         <main className={styles.main}>
-            <h1 className={styles.title}>
-                WELCOME
-            </h1>
+            <Title
+                title="WELCOME"/>
 
             <PrimaryLink
                 text="Click"

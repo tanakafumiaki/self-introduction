@@ -1,13 +1,12 @@
 import styles from "components/templates/SelectionTemplate/styles.module.sass";
-import {PrimaryLink} from "components/atoms";
+import {PrimaryLink, Title} from "components/atoms";
 import React from "react";
 
 const SelectionTemplate: React.VFC　= () => {
     return (
         <main className={styles.main}>
-            <h1 className={styles.title}>
-                WELCOME
-            </h1>
+            <Title
+                title="WELCOME"/>
 
             <div className={styles.selectionContainer}>
                 <PrimaryLink
