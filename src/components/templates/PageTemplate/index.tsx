@@ -1,5 +1,5 @@
-import styles from "src/components/templates/PageTemplate/styles.module.sass";
-import {PrimaryLink} from "src/components/atoms";
+import styles from "components/templates/PageTemplate/styles.module.sass";
+import {PrimaryLink} from "components/atoms";
 import React from "react";
 
 const HomeTemplate: React.VFC　= () => {

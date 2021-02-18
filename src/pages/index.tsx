@@ -1,4 +1,4 @@
-import HomeTemplate from "src/components/templates/PageTemplate/index";
+import HomeTemplate from "components/templates/PageTemplate/index";
 import React from "react";
 
 const Home: React.VFC = () => {
