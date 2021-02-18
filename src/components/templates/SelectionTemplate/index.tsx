@@ -1,4 +1,4 @@
-import styles from "components/templates/SelectionTemplate/styles.module.sass";
+import styles from "./styles.module.sass";
 import {PrimaryLink, Title} from "components/atoms";
 import React from "react";
 
