@@ -1,7 +1,7 @@
 import {SelectionTemplate} from "components/templates";
 import React from "react";
 
-const Selection: React.VFC = () => {
+const Index: React.VFC = () => {
   return <SelectionTemplate />;
 };
-export default Selection;
+export default Index;
