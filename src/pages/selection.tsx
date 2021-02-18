@@ -1,4 +1,4 @@
-import SelectionTemplate from "components/templates/PageTemplate/selection";
+import SelectionTemplate from "components/templates/HomeTemplate/selection";
 import React from "react";
 
 const Selection: React.VFC = () => {

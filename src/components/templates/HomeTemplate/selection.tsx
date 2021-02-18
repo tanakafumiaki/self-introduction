@@ -1,4 +1,4 @@
-import styles from "components/templates/PageTemplate/styles.module.sass";
+import styles from "components/templates/HomeTemplate/styles.module.sass";
 import {PrimaryLink} from "components/atoms";
 import React from "react";
 
