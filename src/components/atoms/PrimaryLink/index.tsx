@@ -1,4 +1,4 @@
-import styles from 'src/components/atoms/PrimaryLink/style.module.sass';
+import styles from './style.module.sass';
 import Link from "next/link";
 import React from "react";
 
