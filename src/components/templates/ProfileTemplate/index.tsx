@@ -1,18 +1,22 @@
 import styles from "./styles.module.sass";
-import {HomeLink, Title, ImageBox} from "components/atoms";
+import {HomeLink, Title, ImageBox, TextBox} from "components/atoms";
 import React from "react";
 
 const ProfileTemplate: React.VFC　= () => {
     return (
-        <main className={styles.main}>
+        <div>
             <Title
                 title="Profile"/>
 
             <HomeLink
                 href="/selection"/>
 
-            <ImageBox/>
-        </main>
+            <main className={styles.main}>
+                <ImageBox/>
+
+                <TextBox/>
+            </main>
+        </div>
     )
 }
 export default ProfileTemplate;
