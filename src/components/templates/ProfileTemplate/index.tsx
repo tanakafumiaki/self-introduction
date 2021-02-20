@@ -1,5 +1,5 @@
 import styles from "./styles.module.sass";
-import {HomeLink, Title} from "components/atoms";
+import {HomeLink, Title, ImageBox} from "components/atoms";
 import React from "react";
 
 const ProfileTemplate: React.VFC　= () => {
@@ -10,6 +10,8 @@ const ProfileTemplate: React.VFC　= () => {
 
             <HomeLink
                 href="/selection"/>
+
+            <ImageBox/>
         </main>
     )
 }
