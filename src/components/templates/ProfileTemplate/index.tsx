@@ -1,5 +1,5 @@
 import styles from "./styles.module.sass";
-import {PrimaryLink, Title} from "components/atoms";
+import {HomeLink, Title} from "components/atoms";
 import React from "react";
 
 const ProfileTemplate: React.VFC　= () => {
@@ -7,6 +7,9 @@ const ProfileTemplate: React.VFC　= () => {
         <main className={styles.main}>
             <Title
                 title="Profile"/>
+
+            <HomeLink
+                href="/selection"/>
         </main>
     )
 }
