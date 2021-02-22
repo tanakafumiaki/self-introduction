@@ -3,13 +3,14 @@ import Link from "next/link";
 import React from "react";
 
 interface Props {
+    text: string
     href: string
 }
 
-const HomeLink: React.VFC<Props> = ({ href }) => {
+const HomeLink: React.VFC<Props> = ({ text,href }) => {
     return (
         <Link href={href}>
-            <a className={styles.link}>Home</a>
+            <a className={styles.link}>{text}</a>
         </Link>
     )
 }
