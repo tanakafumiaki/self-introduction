@@ -15,12 +15,14 @@ const ProfileTemplate: React.VFC　= () => {
                 <ImageBox/>
 
                 <TextBox
-                    text=
-                        "田中史彬(たなかふみあき)です。,
-                        2018年よりシステムエンジニアとして働いています。,
-                        趣味は自転車です。最近の悩みは運動不足です。,
-                        よろしくお願いいたします！,
-                        email: fumiakishodai@gmail.com"
+                    text={
+                        `
+                        田中史彬(たなかふみあき)です。
+                        2018年よりシステムエンジニアとして働いています。
+                        趣味は自転車です。最近の悩みは運動不足です。
+                        よろしくお願いいたします！
+                        email: fumiakishodai@gmail.com`
+                    }
                 />
             </main>
         </div>
