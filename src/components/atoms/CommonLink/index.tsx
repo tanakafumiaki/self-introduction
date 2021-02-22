@@ -7,11 +7,11 @@ interface Props {
     href: string
 }
 
-const HomeLink: React.VFC<Props> = ({ text,href }) => {
+const CommonLink: React.VFC<Props> = ({ text,href }) => {
     return (
         <Link href={href}>
             <a className={styles.link}>{text}</a>
         </Link>
     )
 }
-export default HomeLink;
+export default CommonLink;
