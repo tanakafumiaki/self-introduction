@@ -3,16 +3,16 @@ import React from "react";
 
 interface Props {
     title: string
-    itemsList: []
+    itemList: string[]
 }
 
-const ListBox: React.VFC<Props> = ({title,itemsList}) => {
+const ListBox: React.VFC<Props> = ({title,itemList}) => {
     return (
-        <main>
+        <main className={styles.main}>
+            <p>{title}</p>
             <ul className={styles.skillsWrapper}>
-                {title}
                 <div className={styles.skillsList}>
-                    {itemsList.map(name =>
+                    {itemList.map(name =>
                         <li>{name}</li>
                     )}
                 </div>

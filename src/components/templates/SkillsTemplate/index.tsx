@@ -15,7 +15,7 @@ const ProfileTemplate: React.VFC　= () => {
             <main className={styles.main}>
                 <ListBox
                     title="Frontend"
-                    itemsList={[
+                    itemList={[
                         'JavaScript',
                         'React.js',
                         'TypeScript',
@@ -24,7 +24,7 @@ const ProfileTemplate: React.VFC　= () => {
                 />
                 <ListBox
                     title="Backend"
-                    itemsList={[
+                    itemList={[
                         'Ruby',
                         'Rails',
                         'Java',
@@ -33,7 +33,7 @@ const ProfileTemplate: React.VFC　= () => {
                 />
                 <ListBox
                     title="Other"
-                    itemsList={[
+                    itemList={[
                         'GitHub',
                         'Slack',
                         'JP1',
