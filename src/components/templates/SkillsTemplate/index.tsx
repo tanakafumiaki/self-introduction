@@ -1,5 +1,6 @@
 import styles from "./styles.module.sass";
-import {CommonLink, Title, ListBox} from "components/atoms";
+import {CommonLink, Title} from "components/atoms";
+import {ListBox} from "components/molecules";
 import React from "react";
 
 const ProfileTemplate: React.VFC　= () => {
