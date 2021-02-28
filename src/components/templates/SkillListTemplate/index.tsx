@@ -3,7 +3,7 @@ import {CommonLink, Title} from "components/atoms";
 import {ListBox} from "components/molecules";
 import React from "react";
 
-const ProfileTemplate: React.VFC　= () => {
+const SkillListTemplate: React.VFC　= () => {
     return (
         <div>
             <Title
@@ -45,4 +45,4 @@ const ProfileTemplate: React.VFC　= () => {
         </div>
     )
 }
-export default ProfileTemplate;
+export default SkillListTemplate;

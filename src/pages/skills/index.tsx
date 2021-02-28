@@ -1,7 +1,7 @@
-import {SkillsTemplate} from "components/templates";
+import {SkillListTemplate} from "components/templates";
 import React from "react";
 
 const SkillListPage: React.VFC = () => {
-    return <SkillsTemplate />;
+    return <SkillListTemplate />;
 };
 export default SkillListPage;
