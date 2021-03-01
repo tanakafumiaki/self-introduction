@@ -2,10 +2,14 @@ import styles from './style.module.sass';
 import React from "react";
 import Image from 'next/image';
 
-const ImageBox: React.VFC = () => {
+interface Props {
+    imageSrc: string
+}
+
+const ImageBox: React.VFC<Props> = ({imageSrc}) => {
     return (
         <Image
-            src="/introduction.gif"
+            src={imageSrc}
             width="800"
             height="500"
             alt="picture"

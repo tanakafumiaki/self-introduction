@@ -1,13 +1,14 @@
 @import "src/components/global.module.sass"
 
 .main
+  color: $gray
   margin: 5rem
   display: grid
   grid-template-columns: 1fr 1fr 1fr
-  grid-template-rows: 5rem 1fr
   grid-column-gap: 0.5rem
+  grid-template-rows: 5rem 1fr
   grid-row-gap: 2rem
-  white-space: pre-wrap
+  white-space: pre-line
 
 .image
   grid-column: 1 / 3
@@ -18,9 +19,11 @@
   border-radius: 25px
   grid-column: 3
   grid-row: 1
+  padding-left: 1rem
 
 .outLine
   background-color: white
   border-radius: 25px
   grid-column: 3
   grid-row: 2
+  padding-left: 1rem
