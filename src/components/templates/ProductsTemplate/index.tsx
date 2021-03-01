@@ -1,5 +1,5 @@
-import styles from "./styles.module.sass";
-import {CommonLink, Title, TextBox, ProductImage} from "components/atoms";
+import {CommonLink, Title} from "components/atoms";
+import {ProductBox} from "components/molecules";
 import React from "react";
 
 const ProductsTemplate: React.VFC　= () => {
@@ -13,18 +13,16 @@ const ProductsTemplate: React.VFC　= () => {
                 href="/selection"/>
 
             <main>
-                <ProductImage/>
-                <TextBox text={
-                    `
-                    GitHub：https://github.com/tanakafumiaki
-                    `
-                }/>
-                <TextBox text={
-                    `
-                    作成物名：Portfolio
-                    概要：自己紹介
-                    `
-                }/>
+                <ProductBox
+                    url={`
+                    GitHub: 
+                    https://github.com/tanakafumiaki
+                        `}
+                    outline={`
+                    作成物名：　Self-Introduction
+                    
+                    概要：　自己紹介
+                    `}/>
             </main>
         </div>
     )

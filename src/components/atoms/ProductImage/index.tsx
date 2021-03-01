@@ -6,7 +6,7 @@ const ImageBox: React.VFC = () => {
     return (
         <Image
             src="/introduction.gif"
-            width="700"
+            width="800"
             height="500"
             alt="picture"
             className={styles.image}
