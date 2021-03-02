@@ -3,16 +3,24 @@ import styles from './style.module.sass';
 import React from "react";
 
 interface Props {
-    imageSrc: string
+    imageSrc?: string
+    width?: string
+    height?: string
+    alt?: string
     url: string
     outline: string
 }
 
-const ProductBox: React.VFC<Props> = ({imageSrc,url,outline}) => {
+const ProductBox: React.VFC<Props> = ({imageSrc,width,height,alt,url,outline}) => {
     return (
         <main className={styles.main}>
             <div className={styles.image}>
-                <ProductImage imageSrc={imageSrc}/>
+                <ProductImage
+                    imageSrc={imageSrc}
+                    width={width}
+                    height={height}
+                    alt={alt}
+                />
             </div>
 
             <div className={styles.url}>

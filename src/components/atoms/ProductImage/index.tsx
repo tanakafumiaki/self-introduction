@@ -3,16 +3,19 @@ import React from "react";
 import Image from 'next/image';
 
 interface Props {
-    imageSrc: string
+    imageSrc?: string
+    width?: string
+    height?: string
+    alt?: string
 }
 
-const ImageBox: React.VFC<Props> = ({imageSrc}) => {
+const ImageBox: React.VFC<Props> = ({imageSrc ="/sample.jpg",width="800",height="500",alt= "Picture"}) => {
     return (
         <Image
             src={imageSrc}
-            width="800"
-            height="500"
-            alt="picture"
+            width={width}
+            height={height}
+            alt={alt}
             className={styles.image}
         />
     )

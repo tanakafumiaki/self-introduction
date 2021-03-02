@@ -30,17 +30,15 @@ const ProductsTemplate: React.VFC　= () => {
                 />
 
                 <ProductBox
-                    imageSrc={
-                        "/introduction2.gif"
-                    }
                     url={`
                     GitHub: 
-                    https://github.com/tanakafumiaki
+                    https://github.com/tanakafumiaki/self-introduction
                     `}
                     outline={`
-                    作成物名：　Self-Introduction2
+                    作成物名：　Self-Introduction
                     
-                    概要：　自己紹介2
+                    概要：　自己紹介
+                    「プロフィール」、「スキル」、「作成物」、「経験」を紹介しています。
                     `}
                 />
             </main>
