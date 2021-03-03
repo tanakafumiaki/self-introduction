@@ -28,19 +28,6 @@ const ProductsTemplate: React.VFC　= () => {
                     「プロフィール」、「スキル」、「作成物」、「経験」を紹介しています。
                     `}
                 />
-
-                <ProductBox
-                    url={`
-                    GitHub: 
-                    https://github.com/tanakafumiaki/self-introduction
-                    `}
-                    outline={`
-                    作成物名：　Self-Introduction
-                    
-                    概要：　自己紹介
-                    「プロフィール」、「スキル」、「作成物」、「経験」を紹介しています。
-                    `}
-                />
             </main>
         </div>
     )

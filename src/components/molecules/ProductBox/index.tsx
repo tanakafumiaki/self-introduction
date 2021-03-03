@@ -3,7 +3,7 @@ import styles from './style.module.sass';
 import React from "react";
 
 interface Props {
-    imageSrc?: string
+    imageSrc: string
     width?: string
     height?: string
     alt?: string
