@@ -8,7 +8,7 @@ interface Props {
 
 const ListBox: React.VFC<Props> = ({title,itemList}) => {
     return (
-        <main className={styles.main}>
+        <section className={styles.section}>
             <p>{title}</p>
             <ul className={styles.skillsWrapper}>
                 <div className={styles.skillsList}>
@@ -17,7 +17,7 @@ const ListBox: React.VFC<Props> = ({title,itemList}) => {
                     )}
                 </div>
             </ul>
-        </main>
+        </section>
     )
 }
 export default ListBox;
