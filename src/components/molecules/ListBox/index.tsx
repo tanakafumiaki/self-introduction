@@ -9,13 +9,11 @@ interface Props {
 const ListBox: React.VFC<Props> = ({title,itemList}) => {
     return (
         <section className={styles.section}>
-            <p>{title}</p>
-            <ul className={styles.skillsWrapper}>
-                <div className={styles.skillsList}>
-                    {itemList.map(name =>
-                        <li>{name}</li>
-                    )}
-                </div>
+            <p className={styles.title}>{title}</p>
+            <ul className={styles.skillsList}>
+                {itemList.map(name =>
+                    <li className={styles.li}>{name}</li>
+                )}
             </ul>
         </section>
     )
