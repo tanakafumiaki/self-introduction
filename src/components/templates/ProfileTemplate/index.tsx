@@ -1,10 +1,13 @@
 import styles from "./styles.module.sass";
-import {CommonLink, Title, ImageBox, TextBox} from "components/atoms";
+import {CommonLink, Title, ImageBox, TextBox, Head} from "components/atoms";
 import React from "react";
 
 const ProfileTemplate: React.VFC　= () => {
     return (
         <div>
+            <Head
+                tabName="Profile"/>
+
             <Title
                 title="Profile"/>
 

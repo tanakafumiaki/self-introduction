@@ -1,11 +1,14 @@
 import styles from "./styles.module.sass";
-import {CommonLink, Title} from "components/atoms";
+import {CommonLink, Title, Head} from "components/atoms";
 import {ListBox} from "components/molecules";
 import React from "react";
 
 const SkillListTemplate: React.VFC　= () => {
     return (
         <div>
+            <Head
+                tabName="Skills"/>
+
             <Title
                 title="Skills"/>
 

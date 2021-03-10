@@ -1,10 +1,13 @@
 import styles from "./styles.module.sass";
-import {CommonLink, Title, TextBox} from "components/atoms";
+import {CommonLink, Title, TextBox, Head} from "components/atoms";
 import React from "react";
 
 const ExperienceTemplate: React.VFC　= () => {
     return (
         <div>
+            <Head
+                tabName="Experience"/>
+
             <Title
                 title="Experience"/>
 
