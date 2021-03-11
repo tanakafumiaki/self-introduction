@@ -9,6 +9,10 @@ const Header: React.VFC<Props> = ({ tabName }) => {
     return (
         <Head>
             <title>{tabName}</title>
+            <link rel="preconnect" href="https://fonts.gstatic.com"/>
+            <link href="https://fonts.googleapis.com/css2?family=Ribeye+Marrow&display=swap" rel="stylesheet"/>
+            <link rel="preconnect" href="https://fonts.gstatic.com"/>
+            <link href="https://fonts.googleapis.com/css2?family=Passion+One&display=swap" rel="stylesheet"/>
         </Head>
     )
 }
