@@ -5,9 +5,9 @@ import Image from 'next/image';
 const ImageBox: React.VFC = () => {
     return (
         <Image
-            src="/sample.jpg"
+            src="/profile-picture.jpg"
             width="200"
-            height="200"
+            height="300"
             alt="picture"
             className={styles.image}
         />
