@@ -1,10 +1,13 @@
-import {CommonLink, Title} from "components/atoms";
+import {CommonLink, Title, Head} from "components/atoms";
 import {ProductBox} from "components/molecules";
 import React from "react";
 
 const ProductsTemplate: React.VFC　= () => {
     return (
         <div>
+            <Head
+                tabName="Products"/>
+
             <Title
                 title="Products"/>
 

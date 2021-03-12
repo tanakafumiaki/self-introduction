@@ -13,7 +13,7 @@ interface Props {
 
 const ProductBox: React.VFC<Props> = ({imageSrc,width,height,alt,url,outline}) => {
     return (
-        <main className={styles.main}>
+        <section className={styles.section}>
             <div className={styles.image}>
                 <ProductImage
                     imageSrc={imageSrc}
@@ -30,7 +30,7 @@ const ProductBox: React.VFC<Props> = ({imageSrc,width,height,alt,url,outline}) =
             <div className={styles.outLine}>
                 {outline}
             </div>
-        </main>
+        </section>
     )
 }
 export default ProductBox;

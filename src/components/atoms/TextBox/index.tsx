@@ -7,11 +7,9 @@ interface Props {
 
 const TextBox: React.VFC<Props> = ({text}) => {
     return (
-        <main>
-            <div className={styles.textBox}>
-                {text}
-            </div>
-        </main>
+        <div className={styles.textBox}>
+            {text}
+        </div>
     )
 }
 export default TextBox;
